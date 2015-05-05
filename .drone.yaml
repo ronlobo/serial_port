@@ -1,0 +1,5 @@
+image: dart_stable
+script:
+  - pub get
+  - pub run grinder:grinder compile
+  - pub run grinder:grinder test
